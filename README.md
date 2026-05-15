@@ -1,18 +1,37 @@
-## Getting Started
+# Soma de Matrizes em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
 
-## Folder Structure
+Programa que lê duas matrizes 2x2 de números inteiros e calcula a soma entre elas.
 
-The workspace contains two folders by default, where:
+A soma é feita elemento por elemento:
+Resultado[i][j] = MatrizA[i][j] + MatrizB[i][j]
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como executar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Compile os arquivos a partir da pasta `src`:
+javac matrizes/service/MatrizService.java
+javac matrizes/app/ProgramaMatriz.java
+3. Execute a classe principal:
+java matrizes.app.ProgramaMatriz
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Exemplo de uso
 
-## Dependency Management
+Matriz A:
+[ 1  2 ]
+[ 3  4 ]
+Matriz B:
+[ 5  6 ]
+[ 7  8 ]
+Resultado:
+[ 6   8  ]
+[ 10  12 ]
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Tecnologias
+
+- Java
+- VScode
+
+## Autor
+
+[Victor Hugo] Informatica segundo periodo
